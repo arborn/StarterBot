@@ -6,7 +6,7 @@
  * @param {RGBot} bot
  */
 function configureBot(bot) {
-
+    bot.chat("hello world")
     bot.setDebug(true);
     
     // This function will make the Bot chop + pick up a Coal Ore.
